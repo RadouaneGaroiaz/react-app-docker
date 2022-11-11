@@ -4,7 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+
 RUN npm install
-RUN npm install react-scripts --openssl-legacy-provider
+
 
 CMD ["npm", "start"]
